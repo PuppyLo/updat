@@ -180,8 +180,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         style: ButtonStyle(
                           backgroundColor:
-                              MaterialStateProperty.resolveWith<Color>(
-                            (Set<MaterialState> states) {
+                              WidgetStateProperty.resolveWith<Color>(
+                            (Set<WidgetState> states) {
                               return Colors
                                   .white; // Use the component's default.
                             },
